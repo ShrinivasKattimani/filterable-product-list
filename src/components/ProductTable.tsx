@@ -42,11 +42,11 @@ export default function ProductTable({
 
   return (
     <>
-      <table border={1}>
+      <table className="w-full  border-collapse">
         <thead>
-          <tr>
-            <th>Name</th>
-            <th>Price</th>
+          <tr className="bg-gray-100 dark:bg-gray-700 text-xs text-gray-700 dark:text-gray-100 uppercase tracking-wide">
+            <th className="px-4 py-2">Name</th>
+            <th className="px-4 py-2">Price</th>
           </tr>
         </thead>
         <tbody>

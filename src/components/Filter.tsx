@@ -38,20 +38,30 @@ export default function Filter({
   // };
 
   return (
-    <form>
+    <form
+      onSubmit={(e) => e.preventDefault()}
+      className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-4 sm:space-y-0 bg-white dark:bg-gray-800 p-4 rounded shadow"
+    >
       <input
         type="text"
-        placeholder="Product name"
+        className="flex-1 px-3 py-2 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Search product"
         value={searchString}
-        onChange={(e) => handleSearchStringChange(e)}
+        onChange={handleSearchStringChange}
       />
-      <input
-        type="checkbox"
-        id="stock-filter"
-        checked={showOnlyAvailable}
-        onChange={(e) => handleCheckboxChange(e)}
-      ></input>{" "}
-      <label htmlFor="stock-filter">Only show products in stock</label>
+
+      <div className="flex justify-center space-x-2">
+        <input
+          type="checkbox"
+          id="stock-filter"
+          className="h-4 w-4 flex-shrink-0 text-blue-600 border-gray-300 dark:border-gray-600 focus:ring-blue-500"
+          checked={showOnlyAvailable}
+          onChange={handleCheckboxChange}
+        />
+        <label htmlFor="stock-filter" className="text-sm whitespace-nowrap">
+          Only show products in stock
+        </label>
+      </div>
     </form>
   );
 }
