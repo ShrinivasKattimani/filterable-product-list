@@ -1,47 +1,46 @@
-# 🛒 Filterable Product List (React + TypeScript)
+# 🛒 Filterable Product List (React + TypeScript + Tailwind)
 
-A clean, accessible, high-performance product listing app built with React and TypeScript.
+A clean, responsive, and accessible web app built using **React**, **TypeScript**, and **Tailwind CSS**.  
+This app allows users to **filter products** by name and stock status, displayed in a semantic, categorized table layout.
 
-✅ Perfect Lighthouse score: 100 / 100 / 100 / 100  
-✅ Mentor-reviewed codebase  
-✅ Modular, scalable folder structure  
-✅ Built with care, polished with pride ✨
+---
+
+## 🌟 Highlights
+
+- ✅ **Perfect Lighthouse score**: 100 / 100 / 100 / 100
+- ✅ **Mentor-reviewed codebase**, built with care and polished with pride ✨
+- 🧩 **Modular, scalable folder structure** with clean component separation
+- 🔍 **Real-time filtering** with debounce logic
+- ✅ **In-stock only** checkbox filter
+- 🌙 **Dark mode** + ☀️ **Light mode** support
+- 📱 **Fully responsive** (Mobile → Desktop → Ultrawide)
+- 🧠 **Semantic HTML** for accessibility and SEO
+- ♿️ **Keyboard-friendly** + **screen reader-friendly**
+- ⚡️ **Optimized performance** with zero external UI libraries (yet 😉)
 
 ---
 
 ## 🔥 Live Demo
 
-> _[Link to be added after deployment]_
+👉 [Click here to view the live app](https://filterable-product-list-five.vercel.app/)
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Screenshots
 
-| Light Mode                   | Dark Mode                   |
-| ---------------------------- | --------------------------- |
-| ![](./screenshots/light.png) | ![](./screenshots/dark.png) |
-
----
-
-## 🧩 Features
-
-- Filter by name
-- Show only in-stock toggle
-- Grouped by category
-- Built using `React`, `TypeScript`, and `Vite`
-- Fully responsive and accessible
-- Clean component structure
-- Zero external UI libraries (yet 😉)
+| Light Mode                        | Dark Mode                       |
+| --------------------------------- | ------------------------------- |
+| ![Light](./screenshots/light.png) | ![Dark](./screenshots/dark.png) |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React 19
-- TypeScript
-- Vite
-- Lighthouse
-- Future: Tailwind CSS, React Router, Context API
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Lighthouse](https://web.dev/measure/)
 
 ---
 
@@ -50,12 +49,12 @@ A clean, accessible, high-performance product listing app built with React and T
 | Version  | Description                                                                         |
 | -------- | ----------------------------------------------------------------------------------- |
 | `v1.0.0` | Core product list with filtering & grouping. Mentor-reviewed. Lighthouse all green. |
-| `v2.0.0` | Tailwind + responsive layout + visual polish                                        |
+| `v2.0.0` | Tailwind CSS + Responsive layout + Visual polish                                    |
 | `v3+`    | Routing, mock authentication, product CRUD (mocked)                                 |
 
 ---
 
 ## 🧠 Author
 
-Made with ❤️ by [YOUR NAME]  
-Guided by [My AI Code Mentor 🧙‍♂️]
+Made with ❤️ by [Shrinivas Kattimani](https://github.com/ShrinivasKattimani)  
+Guided by **My AI Code Mentor** 🧙‍♂️
